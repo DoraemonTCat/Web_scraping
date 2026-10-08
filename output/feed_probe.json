@@ -1,0 +1,308 @@
+[
+  {
+    "source": "US FDA - Recalls & Alerts",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "Pacific Health Sciences Voluntarily Recalls One Lot of Babies' Magic Tea Brand Baby Sleep Gripe Water Dietary Supplement",
+    "sample_link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pacific-health-sciences-voluntarily-recalls-one-lot-b",
+    "sample_date": "Tue, 06 Oct 2026 13:09:00 EDT",
+    "has_description": true
+  },
+  {
+    "source": "US FDA - MedWatch",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "Nova Biomedical® Announces Global Medical Device Correction for StatStrip® Glucose Hospital Meter",
+    "sample_link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nova-biomedicalr-announces-global-medical-device-corr",
+    "sample_date": "Tue, 06 Oct 2026 00:00:00 EDT",
+    "has_description": true
+  },
+  {
+    "source": "US FDA - Drug Safety",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "Pharmacokinetics in Patients with Impaired Hepatic Function: Study Design, Data Analysis, and Impact on Dosing",
+    "sample_link": "http://www.fda.gov/regulatory-information/search-fda-guidance-documents/pharmacokinetics-patients-impaired-hepatic-funct",
+    "sample_date": "Wed, 07 Oct 2026 14:14:23 EDT",
+    "has_description": true
+  },
+  {
+    "source": "US FDA - Drug Safety",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drug-safety-podcasts/rss.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "US FDA - Device Safety",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-devices/rss.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "US FDA - Biologics Recalls",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "What’s New for Biologics",
+    "sample_link": "http://www.fda.gov/vaccines-blood-biologics/news-events-biologics/whats-new-biologics",
+    "sample_date": "Wed, 07 Oct 2026 19:39:52 EDT",
+    "has_description": true
+  },
+  {
+    "source": "US FDA - Home",
+    "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "FDA Seeks Public Input to Support Ibogaine Research",
+    "sample_link": "http://www.fda.gov/news-events/press-announcements/fda-seeks-public-input-support-ibogaine-research",
+    "sample_date": "Mon, 05 Oct 2026 09:02:06 EDT",
+    "has_description": true
+  },
+  {
+    "source": "UK MHRA - Drug Device Alerts",
+    "feed_url": "https://www.gov.uk/drug-device-alerts.atom",
+    "status": 200,
+    "ok": true,
+    "items": 50,
+    "kind": "atom",
+    "sample_title": "Class 3 Medicines Recall: Norgine Limited, MOVICOL Plain 13.7g powder for oral solution, EL(26)A/41",
+    "sample_link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-norgine-limited-movicol-plain-13-dot-7g-powder-for-oral-s",
+    "sample_date": "2026-10-05T11:07:50+01:00",
+    "has_description": true
+  },
+  {
+    "source": "Health Canada - Recalls",
+    "feed_url": "https://recalls-rappels.canada.ca/en/feed/recalls.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "Health Canada - Recalls",
+    "feed_url": "https://recalls-rappels.canada.ca/rss/recalls/en",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "Health Canada - Recalls",
+    "feed_url": "https://recalls-rappels.canada.ca/en/rss",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "EMA - News Search",
+    "feed_url": "https://www.ema.europa.eu/en/rss.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "EMA - News Search",
+    "feed_url": "https://www.ema.europa.eu/en/news/rss.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "BBC - Health",
+    "feed_url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+    "status": 200,
+    "ok": true,
+    "items": 52,
+    "kind": "rss",
+    "sample_title": "New global guidelines warn against obesity drugs for children under 10",
+    "sample_link": "https://www.bbc.co.uk/news/articles/crvg904yw397o?at_medium=RSS&at_campaign=rss",
+    "sample_date": "Wed, 07 Oct 2026 08:07:54 GMT",
+    "has_description": true
+  },
+  {
+    "source": "CNN - Health",
+    "feed_url": "http://rss.cnn.com/rss/edition_health.rss",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "ABC News - Health",
+    "feed_url": "https://feeds.abcnews.com/abcnews/healthheadlines",
+    "status": 200,
+    "ok": true,
+    "items": 25,
+    "kind": "rss",
+    "sample_title": "Texas carries out nation’s first execution since Christa Pike’s failed lethal injection",
+    "sample_link": "https://abcnews.com/Health/wireStory/lawyers-seek-block-texas-mans-execution-citing-failed-137065766",
+    "sample_date": "Wed, 07 Oct 2026 22:10:23 -0400",
+    "has_description": true
+  },
+  {
+    "source": "NY Times - Health",
+    "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+    "status": 200,
+    "ok": true,
+    "items": 20,
+    "kind": "rss",
+    "sample_title": "RFK Jr. Plans Vaccine Injury Initiative, Drawing Wary Eye From Experts",
+    "sample_link": "https://www.nytimes.com/2026/10/07/us/politics/kennedy-vaccine-injuries.html",
+    "sample_date": "Thu, 08 Oct 2026 01:40:49 +0000",
+    "has_description": true
+  },
+  {
+    "source": "Reuters - Healthcare",
+    "feed_url": "https://www.reuters.com/arc/outboundfeeds/rss/category/healthcare-pharmaceuticals/?outputType=xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "NIDA",
+    "feed_url": "https://nida.nih.gov/news-events/news-releases/feed",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "NIDA",
+    "feed_url": "https://nida.nih.gov/rss/news.xml",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "US DEA",
+    "feed_url": "https://www.dea.gov/rss/press-releases.xml",
+    "status": 403,
+    "ok": false
+  },
+  {
+    "source": "US DEA",
+    "feed_url": "https://www.dea.gov/node/feed",
+    "status": 403,
+    "ok": false
+  },
+  {
+    "source": "TGA - Alerts",
+    "feed_url": "https://www.tga.gov.au/rss/alerts.xml",
+    "ok": false,
+    "error": "ReadTimeout: The read operation timed out"
+  },
+  {
+    "source": "TGA - Alerts",
+    "feed_url": "https://www.tga.gov.au/news/rss.xml",
+    "ok": false,
+    "error": "ReadTimeout: The read operation timed out"
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_008.xml",
+    "status": 200,
+    "ok": true,
+    "items": 45,
+    "kind": "rss",
+    "sample_title": "[ANZEN]Revisions of PRECAUTIONS: Cladribine posted",
+    "sample_link": "https://www.pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+    "sample_date": "2026-10-02T12:00:00+09:00",
+    "has_description": false
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_011.xml",
+    "status": 200,
+    "ok": true,
+    "items": 16,
+    "kind": "rss",
+    "sample_title": "[SHINSA]The new website “Overview of SAKIGAKE Designation“ launched.",
+    "sample_link": "https://www.pmda.go.jp/english/review-services/reviews/0012.html",
+    "sample_date": "2026-10-02T12:00:00+09:00",
+    "has_description": false
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_012.xml",
+    "status": 200,
+    "ok": true,
+    "items": 9,
+    "kind": "rss",
+    "sample_title": "[REGYURATORISAIENSU]Regulatory Science Activity Report updated",
+    "sample_link": "https://www.pmda.go.jp/english/rs-sb-std/rs/0003.html",
+    "sample_date": "2026-09-28T12:00:00+09:00",
+    "has_description": false
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_013.xml",
+    "status": 200,
+    "ok": true,
+    "items": 5,
+    "kind": "rss",
+    "sample_title": "Revisions of PRECAUTIONS: Cladribine posted",
+    "sample_link": "https://www.pmda.go.jp/english/safety/info-services/drugs/revision-of-precautions/0014.html",
+    "sample_date": "2026-10-02T12:00:00+09:00",
+    "has_description": false
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_014.xml",
+    "status": 200,
+    "ok": false,
+    "items": 0,
+    "kind": null
+  },
+  {
+    "source": "PMDA Japan - English",
+    "feed_url": "https://www.pmda.go.jp/rss_009.xml",
+    "status": 200,
+    "ok": true,
+    "items": 4,
+    "kind": "rss",
+    "sample_title": "PMDA-ATC Training Materials have been updated",
+    "sample_link": "https://www.pmda.go.jp/english/int-activities/training-center/0003.html",
+    "sample_date": "2026-10-01T12:00:00+09:00",
+    "has_description": false
+  },
+  {
+    "source": "InfoQuest - World",
+    "feed_url": "https://www.infoquest.co.th/feed",
+    "status": 200,
+    "ok": true,
+    "items": 10,
+    "kind": "rss",
+    "sample_title": "ก.ล.ต. ออกเกณฑ์รองรับ crypto ETF ในไทย เพิ่มทางเลือกลงทุน ภายใต้การกำกับดูแลที่เหมาะสม",
+    "sample_link": "https://www.infoquest.co.th/2026/661023",
+    "sample_date": "Thu, 08 Oct 2026 03:03:11 +0000",
+    "has_description": true
+  },
+  {
+    "source": "InfoQuest - World",
+    "feed_url": "https://www.infoquest.co.th/world/feed",
+    "status": 200,
+    "ok": false,
+    "items": 0,
+    "kind": null
+  },
+  {
+    "source": "Partnership to End Addiction",
+    "feed_url": "https://drugfree.org/feed/",
+    "status": 200,
+    "ok": false,
+    "items": 0,
+    "kind": null
+  },
+  {
+    "source": "HSA Singapore - Announcements",
+    "feed_url": "https://www.hsa.gov.sg/rss/announcements",
+    "status": 404,
+    "ok": false
+  },
+  {
+    "source": "UNODC",
+    "feed_url": "https://www.unodc.org/unodc/en/frontpage/rss.xml",
+    "status": 404,
+    "ok": false
+  }
+]

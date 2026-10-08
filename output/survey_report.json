@@ -1,0 +1,1017 @@
+{
+  "surveyed_at": "2026-10-08T10:52:19+07:00",
+  "user_agent": "HerbRiskBot/1.0",
+  "total": 31,
+  "summary": {
+    "ok": 26,
+    "blocked": 4,
+    "error": 1,
+    "robots_disallow": 1,
+    "feed_sources_ok": 12,
+    "feed_items_total": 331,
+    "parser_mismatch": 0
+  },
+  "results": [
+    {
+      "name": "US FDA - Recalls & Alerts",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+      "content_type": "application/rss+xml; charset=utf-8",
+      "feed_bytes": 18682,
+      "channel_title": "Food and Drugs Administration--Recalls/Safety Alerts",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "Pacific Health Sciences Voluntarily Recalls One Lot of Babies' Magic Tea Brand Baby Sleep ",
+        "Leader Formulas, LLC. Issues Voluntary Nationwide Recall of RAPTURE Preworkout Due to the ",
+        "Nova Biomedical® Announces Global Medical Device Correction for StatStrip® Glucose Hospita"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - MedWatch",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+      "content_type": "application/rss+xml; charset=utf-8",
+      "feed_bytes": 16374,
+      "channel_title": "MedWatch Safety Alerts RSS Feed",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "Nova Biomedical® Announces Global Medical Device Correction for StatStrip® Glucose Hospita",
+        "Infusion Set Recall: BD and CareFusion 303, Inc. Remove BD Alaris Pump Infusion Sets",
+        "IV Tubing Set Correction: ICU Medical Updates Use Instructions for IV Tubing Sets"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - Drug Safety",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
+      "content_type": "application/rss+xml; charset=utf-8",
+      "feed_bytes": 13059,
+      "channel_title": "What's New: Drugs RSS Feed",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "GDUFA Paid Facilities List",
+        "Recently Issued Guidance Documents",
+        "Pharmacokinetics in Patients with Impaired Hepatic Function: Study Design, Data Analysis, "
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - Biologics Recalls",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+      "content_type": "application/rss+xml; charset=utf-8",
+      "feed_bytes": 13373,
+      "channel_title": "Whats New Vaccines Blood Biologics RSS Feed",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "Calendar Year 2026 | Voluntary Lot Withdrawals of Immune Globulin Intravenous (IGIV) and I",
+        "2026 Safety and Availability Communications",
+        "Recently Issued Guidance Documents"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - Press Releases",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+      "content_type": "application/rss+xml; charset=utf-8",
+      "feed_bytes": 15427,
+      "channel_title": "FDA Press Releases RSS Feed",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "FDA Seeks Public Input to Support Ibogaine Research",
+        "FDA Approves First Heart Valve Designed to Grow with Children",
+        "FDA Launches Nationwide Effort to Expand Scientific Expertise and Consumer Voices to Advis"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - Device Safety",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://www.fda.gov/medical-devices/medical-device-safety",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 59509,
+      "title": "Medical Device Safety | FDA",
+      "anchors_total": 115,
+      "candidate_links": 68,
+      "sample_links": [
+        "https://www.fda.gov/medical-devices/medical-device-safety#main-content",
+        "https://www.fda.gov/medical-devices/medical-device-safety#search-form",
+        "https://www.fda.gov/medical-devices/medical-device-safety#section-nav",
+        "https://www.fda.gov/medical-devices/medical-device-safety#footer",
+        "https://www.fda.gov/medical-devices/medical-device-safety"
+      ],
+      "sample_titles": [
+        "Skip to main content",
+        "Skip to FDA Search",
+        "Skip to in this section menu"
+      ],
+      "js_framework": [
+        "Drupal (อาจโหลดผลค้นหาด้วย JS)"
+      ],
+      "feeds": [],
+      "link_pattern": "/medical-devices/medical-device-recalls-and-early-alerts/",
+      "links_matching_pattern": 26,
+      "sample_matched": [
+        "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/what-early-alert",
+        "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-ventilator-issue-react-health",
+        "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-issue-abiomed"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "US FDA - Letters to HCP",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers",
+      "group": "regulator",
+      "host": "www.fda.gov",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": 30,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.05,
+      "final_url": "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 36803,
+      "title": "Letters to Health Care Providers | FDA",
+      "anchors_total": 77,
+      "candidate_links": 41,
+      "sample_links": [
+        "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers#main-content",
+        "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers#search-form",
+        "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers#section-nav",
+        "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers#footer",
+        "https://www.fda.gov/medical-devices/medical-device-safety/letters-health-care-providers"
+      ],
+      "sample_titles": [
+        "Skip to main content",
+        "Skip to FDA Search",
+        "Skip to in this section menu"
+      ],
+      "js_framework": [
+        "Drupal (อาจโหลดผลค้นหาด้วย JS)"
+      ],
+      "feeds": [],
+      "link_pattern": "/medical-devices/letters-health-care-providers/",
+      "links_matching_pattern": 10,
+      "sample_matched": [
+        "https://www.fda.gov/medical-devices/letters-health-care-providers/disruptions-availability-breast-biopsy-needles-letter-health-care-providers",
+        "https://www.fda.gov/medical-devices/letters-health-care-providers/disruptions-availability-neurosurgical-patties-sponges-and-strips-letter-health-care-providers",
+        "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "UK MHRA - Drug Device Alerts",
+      "url": "https://www.gov.uk/drug-device-alerts.atom",
+      "group": "regulator",
+      "host": "www.gov.uk",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.86,
+      "final_url": "https://www.gov.uk/drug-device-alerts.atom",
+      "content_type": "application/atom+xml; charset=utf-8",
+      "feed_bytes": 34115,
+      "channel_title": "Alerts, recalls and safety information: medicines and medical devices",
+      "feed_format": "atom",
+      "items": 50,
+      "sample_titles": [
+        "Class 3 Medicines Recall: Norgine Limited, MOVICOL Plain 13.7g powder for oral solution, E",
+        "Class 4 Medicines Defect Notification: Neuraxpharm UK Limited, Levetiracetam Neuraxpharm g",
+        "Field Safety Notices: 21 to 25 September 2026"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "PMDA Japan - All Updates",
+      "url": "https://www.pmda.go.jp/rss_008.xml",
+      "group": "regulator",
+      "host": "www.pmda.go.jp",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.12,
+      "final_url": "https://www.pmda.go.jp/rss_008.xml",
+      "content_type": "text/xml",
+      "feed_bytes": 15106,
+      "channel_title": "PMDA：Top All",
+      "feed_format": "rss",
+      "items": 45,
+      "sample_titles": [
+        "[ANZEN]Revisions of PRECAUTIONS: Cladribine posted",
+        "[SHINSA]The new website “Overview of SAKIGAKE Designation“ launched.",
+        "[SHINSA]The English versions of GMPGCTP Annual Report FY 2025 have been published."
+      ],
+      "has_summary": false,
+      "verdict": "ok"
+    },
+    {
+      "name": "Health Canada - Recalls",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "group": "regulator",
+      "host": "recalls-rappels.canada.ca",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.03,
+      "final_url": "https://recalls-rappels.canada.ca/en",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 37566,
+      "title": "Find recalls, advisories and safety alerts - Canada.ca",
+      "anchors_total": 59,
+      "candidate_links": 11,
+      "sample_links": [
+        "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-orders-junior-brands-corp-recall-valco-baby-trend-duo-double-stroller",
+        "https://recalls-rappels.canada.ca/en/alert-recall/perma-sharp-sutures",
+        "https://recalls-rappels.canada.ca/en/alert-recall/bahia-paloma-brand-grapefruit-paloma-agave-spirit-cocktail-and-easy-vodka-brand",
+        "https://recalls-rappels.canada.ca/en/alert-recall/ashoka-brand-masala-paneer-kathi-roll-recalled-due-undeclared-sesame",
+        "https://recalls-rappels.canada.ca/en/alert-recall/esjay-toddler-busy-board-montessori-toys-recalled-due-choking-hazard"
+      ],
+      "sample_titles": [
+        "Health Canada orders Junior Brands Corp. to recall Valco Baby Trend Duo Double S",
+        "Perma-Sharp Sutures",
+        "Bahía Paloma brand Grapefruit Paloma Agave Spirit Cocktail and Easy Vodka brand "
+      ],
+      "js_framework": [
+        "Drupal (อาจโหลดผลค้นหาด้วย JS)"
+      ],
+      "feeds": [
+        {
+          "url": "https://recalls-rappels.canada.ca/en/rss-feeds",
+          "title": "RSS feeds",
+          "how": "ลิงก์ในหน้า"
+        }
+      ],
+      "link_pattern": "/en/alert-recall/",
+      "links_matching_pattern": 11,
+      "sample_matched": [
+        "https://recalls-rappels.canada.ca/en/alert-recall/health-canada-orders-junior-brands-corp-recall-valco-baby-trend-duo-double-stroller",
+        "https://recalls-rappels.canada.ca/en/alert-recall/perma-sharp-sutures",
+        "https://recalls-rappels.canada.ca/en/alert-recall/bahia-paloma-brand-grapefruit-paloma-agave-spirit-cocktail-and-easy-vodka-brand"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "HSA Singapore - Announcements",
+      "url": "https://www.hsa.gov.sg/announcements",
+      "group": "regulator",
+      "host": "www.hsa.gov.sg",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.14,
+      "final_url": "https://www.hsa.gov.sg/announcements/",
+      "content_type": "text/html",
+      "html_bytes": 3594850,
+      "title": "Announcements | Health Sciences Authority",
+      "anchors_total": 62,
+      "candidate_links": 12,
+      "sample_links": [
+        "https://www.hsa.gov.sg/announcements/first-etomidate-vaporiser-pod-importer-sentenced-to-three-years--jail-and-five-strokes-of-the-cane/",
+        "https://www.hsa.gov.sg/announcements/hsa-charges-33-year-old-and-18-year-old-male-for-alleged-importation-and-possession-for-purpose-of-supply-of-etomidate-vaporiser-pods/",
+        "https://www.hsa.gov.sg/announcements/regulatory-updates-for-therapeutic-product-registration-sep-2026-/",
+        "https://www.hsa.gov.sg/announcements/slides--faq---resources---virtual-sharing-session--24-september-2026-/",
+        "https://www.hsa.gov.sg/announcements/risks-of-obtaining-prescription-medicines-unauthorised-channels/"
+      ],
+      "sample_titles": [
+        "2 October 2026 2 October 2026 First Etomidate Vaporiser Pod Importer Sentenced t",
+        "30 September 2026 30 September 2026 HSA Charges 33-year-old and 18-year-old Male",
+        "30 September 2026 30 September 2026 Regulatory Updates for Therapeutic Product R"
+      ],
+      "js_framework": [],
+      "feeds": [
+        {
+          "url": "https://www.hsa.gov.sg/feedback/",
+          "title": "Feedback",
+          "how": "ลิงก์ในหน้า"
+        }
+      ],
+      "link_pattern": "/announcements/[^/]+/?$",
+      "links_matching_pattern": 10,
+      "sample_matched": [
+        "https://www.hsa.gov.sg/announcements/first-etomidate-vaporiser-pod-importer-sentenced-to-three-years--jail-and-five-strokes-of-the-cane/",
+        "https://www.hsa.gov.sg/announcements/hsa-charges-33-year-old-and-18-year-old-male-for-alleged-importation-and-possession-for-purpose-of-supply-of-etomidate-vaporiser-pods/",
+        "https://www.hsa.gov.sg/announcements/regulatory-updates-for-therapeutic-product-registration-sep-2026-/"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "EMA - News",
+      "url": "https://www.ema.europa.eu/en",
+      "group": "regulator",
+      "host": "www.ema.europa.eu",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.36,
+      "final_url": "https://www.ema.europa.eu/en/homepage",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 94666,
+      "title": "European Medicines Agency (EMA)",
+      "anchors_total": 167,
+      "candidate_links": 94,
+      "sample_links": [
+        "https://www.ema.europa.eu/en/medicines/therapeutic-areas-latest-updates",
+        "https://www.ema.europa.eu/en/medicines/download-medicine-data",
+        "https://www.ema.europa.eu/en/medicines/what-we-publish-medicines-when",
+        "https://www.ema.europa.eu/en/medicines/medicines-human-use-under-evaluation",
+        "https://www.ema.europa.eu/en/medicines/national-registers-authorised-medicines"
+      ],
+      "sample_titles": [
+        "Therapeutic areas: latest updates",
+        "Download medicine data",
+        "What we publish on medicines and when"
+      ],
+      "js_framework": [
+        "Drupal (อาจโหลดผลค้นหาด้วย JS)"
+      ],
+      "feeds": [
+        {
+          "url": "https://www.ema.europa.eu/en/news-events/rss-feeds",
+          "title": "RSS feeds",
+          "how": "ลิงก์ในหน้า"
+        },
+        {
+          "url": "https://www.ema.europa.eu/news-event/rss-feeds",
+          "title": "RSS Feed",
+          "how": "ลิงก์ในหน้า"
+        }
+      ],
+      "link_pattern": "/en/news/",
+      "links_matching_pattern": 6,
+      "sample_matched": [
+        "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-28-september-1-october",
+        "https://www.ema.europa.eu/en/news/ema-management-board-highlights-september-2026-meeting",
+        "https://www.ema.europa.eu/en/news/global-regulators-call-advancing-alternatives-animal-testing-across-medicine-lifecycle"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "NIDA - News Releases",
+      "url": "https://nida.nih.gov/news-events/news-releases",
+      "group": "regulator",
+      "host": "nida.nih.gov",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.52,
+      "final_url": "https://nida.nih.gov/news-events/news-releases",
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 87794,
+      "title": "News Releases | National Institute on Drug Abuse (NIDA)",
+      "anchors_total": 199,
+      "candidate_links": 91,
+      "sample_links": [
+        "https://nida.nih.gov/news-events/news-releases#main-content",
+        "https://nida.nih.gov/research-topics/addiction-science",
+        "https://nida.nih.gov/research-topics/cannabis",
+        "https://nida.nih.gov/research-topics/emerging-drug-trends",
+        "https://nida.nih.gov/research-topics/fentanyl"
+      ],
+      "sample_titles": [
+        "Skip to main content",
+        "Addiction Science",
+        "Cannabis (Marijuana)"
+      ],
+      "js_framework": [
+        "Drupal (อาจโหลดผลค้นหาด้วย JS)"
+      ],
+      "feeds": [],
+      "link_pattern": "/news-events/news-releases/",
+      "links_matching_pattern": 30,
+      "sample_matched": [
+        "https://nida.nih.gov/news-events/news-releases/2026/6/nih-research-clears-way-for-study-of-experimental-treatment-for-opioid-use-disorder",
+        "https://nida.nih.gov/news-events/news-releases/2026/4/nih-researchers-discover-pain-relieving-drug-with-minimal-addictive-properties",
+        "https://nida.nih.gov/news-events/news-releases/2026/3/clinical-trial-results-support-use-weekly-extended-release-buprenorphine-treatment-opioid-use-disorder-during-pregnancy"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "BBC - Health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "group": "news",
+      "host": "feeds.bbci.co.uk",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.28,
+      "final_url": "https://feeds.bbci.co.uk/news/health/rss.xml",
+      "content_type": "text/xml; charset=utf-8",
+      "feed_bytes": 37725,
+      "channel_title": "BBC News",
+      "feed_format": "rss",
+      "items": 52,
+      "sample_titles": [
+        "New global guidelines warn against obesity drugs for children under 10",
+        "'That nagging feeling of dread': Is 'hang-xiety' a real thing?",
+        "One million UK people who have never smoked are now vaping"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "CNN - Health",
+      "url": "http://rss.cnn.com/rss/cnn_health.rss",
+      "group": "news",
+      "host": "rss.cnn.com",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.62,
+      "final_url": "http://rss.cnn.com/rss/cnn_health.rss",
+      "content_type": "text/xml; charset=utf-8",
+      "feed_bytes": 72667,
+      "channel_title": "CNN.com - RSS Channel - Health",
+      "feed_format": "rss",
+      "items": 29,
+      "sample_titles": [
+        "RSV hospitalization rate for seniors is 10 times higher than usual for this point in the s",
+        "Covid-19 boosters could keep thousands of kids out of hospitals, but uptake remains low",
+        "Experimental therapy gantenerumab fails to slow or improve Alzheimer's memory loss in clin"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "ABC News - Health",
+      "url": "https://feeds.abcnews.com/abcnews/healthheadlines",
+      "group": "news",
+      "host": "feeds.abcnews.com",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.84,
+      "final_url": "https://abcnews.com/abcnews/healthheadlines",
+      "content_type": "text/xml;charset=UTF-8",
+      "feed_bytes": 47238,
+      "channel_title": "ABC News: Health",
+      "feed_format": "rss",
+      "items": 25,
+      "sample_titles": [
+        "Texas carries out nation’s first execution since Christa Pike’s failed lethal injection",
+        "FDA says its review of abortion pill will continue into next year",
+        "The plague never went away. Cases are reported in parts of Africa and the US nearly every "
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "NY Times - Health",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+      "group": "news",
+      "host": "rss.nytimes.com",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.0,
+      "final_url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+      "content_type": "application/xml",
+      "feed_bytes": 39552,
+      "channel_title": "NYT > Health",
+      "feed_format": "rss",
+      "items": 20,
+      "sample_titles": [
+        "RFK Jr. Plans Vaccine Injury Initiative, Drawing Wary Eye From Experts",
+        "Trump Administration Delays Threaten Funding for HIV Research",
+        "What Experts Want to Know About the Russia Plague Scare"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "InfoQuest",
+      "url": "https://www.infoquest.co.th/feed",
+      "group": "news",
+      "host": "www.infoquest.co.th",
+      "kind": "rss",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 1.94,
+      "final_url": "https://www.infoquest.co.th/feed",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_bytes": 12328,
+      "channel_title": "สำนักข่าวอินโฟเควสท์",
+      "feed_format": "rss",
+      "items": 10,
+      "sample_titles": [
+        "HILITE: หุ้นโลกผันผวนหนัก Bond Yield-น้ำมันพุ่ง งาน IMF-World Bank หนุนภาพลักษณ์ไทย ดัน 7 ",
+        "บอนด์ยีลด์สหรัฐฯ ย่อตัวจากระดับสูงสุดรอบ 24 ปี หลังผลประมูลพันธบัตรแกร่งช่วยคลายกังวลดีมาน",
+        "ENRICH ยื่นไฟลิ่งขาย IPO 62 ล้านหุ้น เดินหน้าเข้า mai ชูช่องทางออนไลน์ของบริษัท เสริมศักยภ"
+      ],
+      "has_summary": true,
+      "verdict": "ok"
+    },
+    {
+      "name": "Partnership to End Addiction",
+      "url": "https://drugfree.org/",
+      "group": "news",
+      "host": "drugfree.org",
+      "kind": "html",
+      "config_status": "ready",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 403) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 1.41,
+      "final_url": "https://drugfree.org/",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 169316,
+      "title": "Partnership to End Addiction",
+      "anchors_total": 132,
+      "candidate_links": 33,
+      "sample_links": [
+        "https://drugfree.org/recursos-en-espanol/",
+        "https://drugfree.org/prevention-and-early-action/",
+        "https://drugfree.org/treatment-and-recovery/",
+        "https://drugfree.org/article/get-one-on-one-help/",
+        "https://drugfree.org/get-help-hope-by-text/"
+      ],
+      "sample_titles": [
+        "Recursos en Español",
+        "Prevention & Early Action Proven strategies and early intervention techniques to",
+        "Treatment & Recovery Effective treatment and recovery resources to address subst"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "link_pattern": "/article/",
+      "links_matching_pattern": 13,
+      "sample_matched": [
+        "https://drugfree.org/article/get-one-on-one-help/",
+        "https://drugfree.org/article/fundraise-on-our-behalf/",
+        "https://drugfree.org/article/work-at-the-partnership/"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "สบส. (HSS MOPH)",
+      "url": "https://hss.moph.go.th/info_act/",
+      "group": "regulator",
+      "host": "hss.moph.go.th",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.45,
+      "final_url": "https://hss.moph.go.th/info_act/",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 19718,
+      "title": "ศูนย์ข้อมูลข่าวสารของราชการ &raquo กรมสนับสนุนบริการสุขภาพ",
+      "anchors_total": 31,
+      "candidate_links": 14,
+      "sample_links": [
+        "https://hss.moph.go.th/info_act/page/s_showtopic1.php",
+        "https://hss.moph.go.th/info_act/page/info.php",
+        "https://hss.moph.go.th/info_act/page/master.php",
+        "https://hss.moph.go.th/info_act/page/kum.php",
+        "https://hss.moph.go.th/info_act/page/group.php"
+      ],
+      "sample_titles": [
+        "ประวัติความเป็นมา",
+        "ผู้บริหาร",
+        "คำสั่ง/ผู้ประสานงาน"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "link_pattern": "/info_act/page/",
+      "links_matching_pattern": 14,
+      "sample_matched": [
+        "https://hss.moph.go.th/info_act/page/s_showtopic1.php",
+        "https://hss.moph.go.th/info_act/page/info.php",
+        "https://hss.moph.go.th/info_act/page/master.php"
+      ],
+      "verdict": "ok"
+    },
+    {
+      "name": "UNODC",
+      "url": "https://www.unodc.org/",
+      "group": "regulator",
+      "host": "www.unodc.org",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.31,
+      "final_url": "https://www.unodc.org/",
+      "content_type": "text/html;charset=utf-8",
+      "html_bytes": 55810,
+      "title": "United Nations Office on Drugs and Crime",
+      "anchors_total": 344,
+      "candidate_links": 136,
+      "sample_links": [
+        "https://www.unodc.org/unodc/en/about-unodc/index.html",
+        "https://www.unodc.org/unodc/en/eds-corner/index.html",
+        "https://www.unodc.org/unodc/en/about-unodc/senior-leadership.html",
+        "https://www.unodc.org/unodc/en/donors/unodc-partners.html",
+        "https://www.unodc.org/unodc/en/about-unodc/international-days.html"
+      ],
+      "sample_titles": [
+        "About us",
+        "Executive Director",
+        "Senior Leadership"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    },
+    {
+      "name": "INCB",
+      "url": "https://www.incb.org/incb/index.html",
+      "group": "regulator",
+      "host": "www.incb.org",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.61,
+      "final_url": "https://www.incb.org/incb/index.html",
+      "content_type": "text/html;charset=utf-8",
+      "html_bytes": 69471,
+      "title": "International Narcotics Control Board",
+      "anchors_total": 204,
+      "candidate_links": 106,
+      "sample_links": [
+        "https://www.incb.org/incb/en/about/mandate-functions.html",
+        "https://www.incb.org/incb/en/about/membership.html",
+        "https://www.incb.org/incb/en/about/members/sevil_atasoy.html",
+        "https://www.incb.org/incb/en/about/secretariat.html",
+        "https://www.incb.org/incb/en/about/sessions.html"
+      ],
+      "sample_titles": [
+        "Mandate-functions",
+        "Membership",
+        "INCB President"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    },
+    {
+      "name": "ONDCP (White House)",
+      "url": "https://www.whitehouse.gov/ondcp/",
+      "group": "regulator",
+      "host": "www.whitehouse.gov",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.23,
+      "final_url": "https://www.whitehouse.gov/ondcp/",
+      "content_type": "text/html; charset=UTF-8",
+      "html_bytes": 242323,
+      "title": "Office of National Drug Control Policy – The White House",
+      "anchors_total": 169,
+      "candidate_links": 29,
+      "sample_links": [
+        "https://www.whitehouse.gov/lab-leak-true-origins-of-covid-19/",
+        "https://www.whitehouse.gov/briefings-statements/",
+        "https://www.whitehouse.gov/presidential-actions/",
+        "https://www.whitehouse.gov/presidential-actions/executive-orders/",
+        "https://www.whitehouse.gov/presidential-actions/nominations-appointments/"
+      ],
+      "sample_titles": [
+        "Lab Leak: The True Origins of Covid-19",
+        "Briefings & Statements",
+        "Presidential Actions"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    },
+    {
+      "name": "Hong Kong MDD",
+      "url": "https://www.mdd.gov.hk/en/home/index.html",
+      "group": "regulator",
+      "host": "www.mdd.gov.hk",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.06,
+      "final_url": "https://www.mdd.gov.hk/en/home/index.html",
+      "content_type": "text/html",
+      "html_bytes": 12192,
+      "title": "Department of Health | Medical Device Division - Home",
+      "anchors_total": 5,
+      "candidate_links": 4,
+      "sample_links": [
+        "https://www.mdd.gov.hk/en/industry/index.html",
+        "https://www.mdd.gov.hk/en/healthcare-professional/index.html",
+        "https://www.mdd.gov.hk/en/public/index.html",
+        "https://www.mdd.gov.hk/en/whats-new/index.html#recent-updates"
+      ],
+      "sample_titles": [
+        "Industry",
+        "Healthcare Professional",
+        "Public"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    },
+    {
+      "name": "Erowid",
+      "url": "https://www.erowid.org/",
+      "group": "news",
+      "host": "www.erowid.org",
+      "kind": "html",
+      "config_status": "needs_fix",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 1.2,
+      "final_url": "https://www.erowid.org/",
+      "content_type": "text/html; charset=iso-8859-1",
+      "html_bytes": 14198,
+      "title": "Erowid",
+      "anchors_total": 53,
+      "candidate_links": 31,
+      "sample_links": [
+        "https://www.erowid.org/donations/donations_campaign1.php",
+        "https://www.erowid.org/donations/donations_cryptocurrency.php",
+        "https://www.erowid.org/donations/membership_student.php",
+        "https://www.erowid.org/donations/membership_basic.php",
+        "https://www.erowid.org/donations/membership_friend.php"
+      ],
+      "sample_titles": [
+        "Details"
+      ],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    },
+    {
+      "name": "EMA - News Search",
+      "url": "https://www.ema.europa.eu/en/search?f%5B0%5D=ema_search_custom_entity_bundle%3Aema_news",
+      "group": "regulator",
+      "host": "www.ema.europa.eu",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 403,
+      "elapsed_s": 0.31,
+      "final_url": "https://www.ema.europa.eu/en/search?f%5B0%5D=ema_search_custom_entity_bundle%3Aema_news",
+      "content_type": "",
+      "verdict": "blocked",
+      "browser_ua_status": 401,
+      "blocked_reason": "บล็อกทุก UA (น่าจะมีระบบกันบอท)"
+    },
+    {
+      "name": "Reuters - Healthcare",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/?type=healthNews",
+      "group": "news",
+      "host": "www.reuters.com",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": false,
+        "crawl_delay": null,
+        "note": "robots.txt ห้ามดึง URL นี้"
+      },
+      "http_status": 401,
+      "elapsed_s": 0.05,
+      "final_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/?type=healthNews",
+      "content_type": "text/html;charset=utf-8",
+      "verdict": "blocked",
+      "browser_ua_status": 401,
+      "blocked_reason": "บล็อกทุก UA (น่าจะมีระบบกันบอท)"
+    },
+    {
+      "name": "US DEA",
+      "url": "https://www.dea.gov/",
+      "group": "regulator",
+      "host": "www.dea.gov",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 403) = ถือว่าอนุญาต"
+      },
+      "http_status": 403,
+      "elapsed_s": 0.05,
+      "final_url": "https://www.dea.gov/",
+      "content_type": "text/html",
+      "verdict": "blocked",
+      "browser_ua_status": 403,
+      "blocked_reason": "บล็อกทุก UA (น่าจะมีระบบกันบอท)"
+    },
+    {
+      "name": "EIN News - Health",
+      "url": "https://health.einnews.com/",
+      "group": "news",
+      "host": "health.einnews.com",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": true,
+        "crawl_delay": null,
+        "note": "อนุญาต"
+      },
+      "http_status": 403,
+      "elapsed_s": 0.05,
+      "final_url": "https://health.einnews.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "verdict": "blocked",
+      "browser_ua_status": 403,
+      "blocked_reason": "บล็อกทุก UA (น่าจะมีระบบกันบอท)"
+    },
+    {
+      "name": "TGA - Alerts",
+      "url": "https://www.tga.gov.au/resources/alert",
+      "group": "regulator",
+      "host": "www.tga.gov.au",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": true,
+        "note": "อ่าน robots.txt ไม่ได้: ReadTimeout = ถือว่าอนุญาต"
+      },
+      "verdict": "error",
+      "error": "ReadTimeout: The read operation timed out"
+    },
+    {
+      "name": "TGA - DRAC",
+      "url": "https://apps.tga.gov.au/PROD/DRAC/arn-entry.aspx",
+      "group": "regulator",
+      "host": "apps.tga.gov.au",
+      "kind": "html",
+      "config_status": "blocked",
+      "robots": {
+        "allowed": true,
+        "note": "ไม่มี robots.txt (HTTP 404) = ถือว่าอนุญาต"
+      },
+      "http_status": 200,
+      "elapsed_s": 0.31,
+      "final_url": "https://apps.tga.gov.au/PROD/DRAC/arn-entry.aspx",
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 36555,
+      "title": "Database of Recalls, Product Alerts and Product Corrections",
+      "anchors_total": 2,
+      "candidate_links": 0,
+      "sample_links": [],
+      "sample_titles": [],
+      "js_framework": [],
+      "feeds": [],
+      "verdict": "ok"
+    }
+  ]
+}
