@@ -20,6 +20,8 @@ import pathlib
 import httpx
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
+from net import ssl_context
+
 # เราเลือก parser เองตาม kind อยู่แล้ว (xml สำหรับ feed, lxml สำหรับ HTML)
 # เตือนซ้ำเฉพาะกรณีเว็บส่ง content-type ไม่ตรงกับ kind ที่ตั้งไว้ ซึ่งเรารายงานใน parser_mismatch แทน
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -218,8 +220,8 @@ def main():
     hdr_br = {"User-Agent": UA_BROWSER, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
               "Accept-Language": "en-US,en;q=0.9"}
 
-    with httpx.Client(headers=hdr_bot, timeout=TIMEOUT, follow_redirects=True, verify=False) as cb, \
-         httpx.Client(headers=hdr_br, timeout=TIMEOUT, follow_redirects=True, verify=False) as cbr:
+    with httpx.Client(headers=hdr_bot, timeout=TIMEOUT, follow_redirects=True, verify=ssl_context()) as cb, \
+         httpx.Client(headers=hdr_br, timeout=TIMEOUT, follow_redirects=True, verify=ssl_context()) as cbr:
         with ThreadPoolExecutor(max_workers=6) as ex:
             results = list(ex.map(lambda s: survey_one(s, cb, cbr), sources))
 

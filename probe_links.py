@@ -4,6 +4,8 @@ from urllib.parse import urljoin, urlparse
 import httpx
 from bs4 import BeautifulSoup
 
+from net import ssl_context
+
 TARGETS = {
  "Health Canada":"https://recalls-rappels.canada.ca/en",
  "HSA Singapore":"https://www.hsa.gov.sg/announcements",
@@ -17,7 +19,7 @@ TARGETS = {
  "HK MDD":"https://www.mdd.gov.hk/en/home/index.html",
  "EMA home":"https://www.ema.europa.eu/en",
 }
-with httpx.Client(headers={"User-Agent":"HerbRiskBot/1.0"},timeout=30,follow_redirects=True,verify=False) as c:
+with httpx.Client(headers={"User-Agent":"HerbRiskBot/1.0"},timeout=30,follow_redirects=True,verify=ssl_context()) as c:
     for name,url in TARGETS.items():
         try:
             r=c.get(url); time.sleep(1)

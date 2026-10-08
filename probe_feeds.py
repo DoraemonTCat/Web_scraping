@@ -9,6 +9,8 @@ import pathlib
 import httpx
 from bs4 import BeautifulSoup
 
+from net import ssl_context
+
 BASE = str(pathlib.Path(__file__).resolve().parent)  # อ้างอิงโฟลเดอร์ของไฟล์นี้ ย้ายโฟลเดอร์แล้วไม่พัง
 UA = "HerbRiskBot/1.0"
 
@@ -82,7 +84,7 @@ def probe(name, url, client):
 
 jobs = [(n, u) for n, us in CANDIDATES.items() for u in us]
 with httpx.Client(headers={"User-Agent": UA, "Accept": "application/rss+xml,application/xml,text/xml,*/*"},
-                  timeout=25.0, follow_redirects=True, verify=False) as c:
+                  timeout=25.0, follow_redirects=True, verify=ssl_context()) as c:
     with ThreadPoolExecutor(max_workers=6) as ex:
         res = list(ex.map(lambda j: probe(j[0], j[1], c), jobs))
 

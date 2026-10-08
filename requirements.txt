@@ -1,0 +1,8 @@
+# News Crawler - web scraping (เฟส 0-0.5)
+httpx==0.28.1
+beautifulsoup4==4.14.3
+lxml==6.1.2
+
+# จำเป็นบนเครื่องที่มีแอนตี้ไวรัสดักตรวจ HTTPS (เช่น Avast)
+# ทำให้ Python อ่าน certificate store ของ Windows ได้ แทนการปิด verify ทิ้ง
+truststore==0.10.4

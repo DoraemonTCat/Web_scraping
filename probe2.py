@@ -1,5 +1,7 @@
 import json, httpx
 from bs4 import BeautifulSoup
+
+from net import ssl_context
 UA="HerbRiskBot/1.0"
 BR=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 TRY=[
@@ -16,7 +18,7 @@ TRY=[
 ]
 for name,url,ua in TRY:
     try:
-        with httpx.Client(headers={"User-Agent":ua},timeout=30.0,follow_redirects=True,verify=False) as c:
+        with httpx.Client(headers={"User-Agent":ua},timeout=30.0,follow_redirects=True,verify=ssl_context()) as c:
             r=c.get(url)
         info=f"{r.status_code} {len(r.text)}b"
         if r.status_code==200:
