@@ -9,7 +9,7 @@
   - คำอังกฤษต้องตรงทั้งคำ และนับรูปพหูพจน์ -s / -es ด้วย
   - ภาษาไทยไม่มีช่องว่างระหว่างคำ จึงจับคู่แบบ substring
 """
-import json, pathlib, re
+import json, pathlib, re, sys, glob
 
 BASE = pathlib.Path(__file__).resolve().parent
 
@@ -34,7 +34,11 @@ def build_patterns(kw):
 
 def main():
     kws = json.loads((BASE / "keywords.json").read_text(encoding="utf-8"))["keywords"]
-    data = json.loads((BASE / "output" / "sample_output.json").read_text(encoding="utf-8"))
+    # ไม่ระบุไฟล์ = ใช้ผลการรันล่าสุด
+    path = sys.argv[1] if len(sys.argv) > 1 else sorted(
+        glob.glob(str(BASE / "output" / "crawl_*.json")))[-1]
+    print(f"อ่านจาก {path}\n")
+    data = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
 
     compiled = [(kw["keyword"], build_patterns(kw)) for kw in kws]
     rows = []
